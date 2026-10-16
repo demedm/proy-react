@@ -37,8 +37,11 @@ function ItemProductoListContainer({ Mensaje}) {
 
     return (
         <>
-            <h1>{Mensaje}</h1>
-            <div className={styles.contenedor}>
+            <br></br>
+            <h1 className={styles.tittle}>{Mensaje}</h1>
+            <br></br>
+            <h3 className={styles.mensaje}>Selección de los productos más vendidos!</h3>
+            <div>
                 <ItemProductoList listaItems={items}/>
             </div>
         </>

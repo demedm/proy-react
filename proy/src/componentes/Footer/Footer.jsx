@@ -6,10 +6,10 @@ function Footer() {
         <footer className={styles.footer}>
            
             <div className={styles.contenedorEquipo}>
-                <ItemEquipoListContainer Mensaje="Conocé a nuestro Equipo"/>
+                <ItemEquipoListContainer/>
             </div>
 
-            <p className="footerText">© 2026 Tienda Online - Todos los derechos reservados</p>
+            <p className={styles.footerText}>© 2026 Tienda Online - Todos los derechos reservados</p>
 
         </footer>
     );

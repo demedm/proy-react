@@ -37,8 +37,8 @@ function ItemEquipoListContainer({ Mensaje }) {
 
     return (
         <>
-            <h1>{Mensaje}</h1>
-            <div className={styles.contenedor}>
+            <h1 className={styles.titulo}>Conocé a nuestro equipo.</h1>
+            <div>
                 <ItemEquipoList listaItems={items}/>
             </div>
         </>

@@ -1,8 +1,9 @@
 import ItemEquipo from "../../Item/Integrante/ItemEquipo.jsx";
+import styles from "./ItemList.module.css";
 
 function ItemEquipoList({ listaItems }) {
     return(
-        <div>
+        <div className={styles.contenedor}>
             {
                 listaItems.map((item) => (
                     <ItemEquipo 

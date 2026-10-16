@@ -37,7 +37,23 @@
     background-color: var(--color-secondary);
 }
 
-.enlaceCarrito {}
+.enlaceCarrito {
+    font-family: var(--font-tittles);
+    width: 100%;
+    padding: 1rem;
+    border-radius: var(--radius-md);
+    background-color: var(--color-secondary);
+    color: var(--color-light);
+    font-weight: 700;
+    cursor: pointer;
+    transition: var(--transition);
+    margin-top: 20px;
+    text-decoration: none;
+
+    &:hover {
+        background-color: var(--color-primary);
+    }
+}
 
 .nav {
     font-family: var(--font-tittles);

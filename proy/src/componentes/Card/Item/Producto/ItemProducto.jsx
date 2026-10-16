@@ -37,10 +37,12 @@ function ItemProducto({ nombre, precio, stock, imagen }) {
 
             <div className={styles.contenidoCard}>
 
-                <span className="styles.favorito" onClick={agregarFavoritos}>
-                    {esFavorito ? '★' : '☆'}
-                </span>
-                <h3 className={styles.nombreProducto}>{nombre}</h3>
+                <div className={styles.encabezado}>
+                    <button className="styles.favorito" onClick={agregarFavoritos}>
+                        {esFavorito ? ' ★ ' : ' ☆ '}
+                    </button>
+                    <h3 className={styles.nombreProducto}>{nombre}</h3>
+                </div>
 
                 <p className={styles.precioProducto}>
                     <span>${precio}</span>
@@ -49,7 +51,7 @@ function ItemProducto({ nombre, precio, stock, imagen }) {
 
                 <div className={styles.contenedorContador}>
                     <button onClick={incrementar} className={styles.botonContador}>+</button>
-                    <p>{cantidad}</p>
+                    <p className={styles.cantidadContador}>{cantidad}</p>
                     <button onClick={decrementar} className={styles.botonContador}>-</button>
                 </div>
                 <button onClick={agregarCarrito} className={styles.botonCarrito}>Agregar al Carrito</button>

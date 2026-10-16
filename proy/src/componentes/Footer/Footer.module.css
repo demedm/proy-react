@@ -12,10 +12,10 @@
 }
 
 .contenedorEquipo {
-
 }
 
 .footerText {
+    font-family: var(--font-main);
     color: var(--color-light);
     font-size: 0.95rem;
     letter-spacing: 1px;

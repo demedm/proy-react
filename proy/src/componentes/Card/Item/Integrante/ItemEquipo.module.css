@@ -1,21 +1,14 @@
 .card {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 
-    max-width: 400px;
-    max-height: 500px;
-    margin: 0 auto;
-    padding: 2rem 5%;
-
+    font-family: var(--font-main);
     background-color: var(--color-light);
-    
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow);
     transition: var(--transition);
     position: relative;
-    margin-bottom: 25px;
-
 }
 
 .imagen {
@@ -28,7 +21,7 @@
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
-    flex: 1 1 20rem;
+    flex: 1;
     gap: 1rem;
 }
 
@@ -36,4 +29,8 @@
     font-size: 1.4rem;
     color: var(--color-primary);
     text-transform: uppercase;
+}
+
+.puesto {
+    font-family: var(--font-logo);
 }

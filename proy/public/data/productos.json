@@ -1,23 +1,30 @@
 [
     {
         "id": "1",
-        "nombre": "Peluche 1",
+        "nombre": "Peluche Conejo Blanco",
         "precio": 15400,
         "stock": 14,
         "imagen": "/images/productos/rabbit-plushie.jpg"
     },
     {
         "id": "3",
-        "nombre": "Peluche 2",
-        "precio": 15400,
+        "nombre": "Peluche Gatito Pan",
+        "precio": 13500,
         "stock": 12,
-        "imagen": "/images/productos/rabbit-plushie.jpg"
+        "imagen": "/images/productos/flour-cat-plushie.jpg"
     },
     {
         "id": "10",
-        "nombre": "Peluche 3",
+        "nombre": "Peluche Gato Enojado",
         "precio": 15400,
         "stock": 9,
-        "imagen": "/images/productos/rabbit-plushie.jpg"
+        "imagen": "/images/productos/angry-cat-plushie.jpg"
+    },
+    {
+        "id": "11",
+        "nombre": "Peluche Oso Teddy",
+        "precio": 15400,
+        "stock": 15,
+        "imagen": "/images/productos/teddy-bear.jpg"
     }
 ]

@@ -14,7 +14,7 @@ function ItemEquipo({ nombre, email, puesto, imagen }) {
                         {nombre}
                     </h3>
                     <p>{email}</p>
-                    <p>{puesto}</p>
+                    <p className={styles.puesto}>{puesto}</p>
                 </div>
             </article>
     );

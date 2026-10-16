@@ -1,8 +1,9 @@
 import ItemProducto from "../../Item/Producto/ItemProducto.jsx";
+import styles from "./ItemList.module.css";
 
 function ItemProductoList({ listaItems }) {
     return(
-        <div>
+        <div className={styles.contenedor}>
             {
                 listaItems.map((item) => (
                     <ItemProducto 

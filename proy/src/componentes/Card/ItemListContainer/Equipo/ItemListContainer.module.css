@@ -1,6 +1,7 @@
-.contenedor {
-    padding: 5rem 8%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-    gap: 2rem;
+.titulo {
+    color: var(--color-light);
+    font-family: var(--font-tittles);
+    font-weight: bold;
+    background-color: var(--color-secondary);
+
 }
