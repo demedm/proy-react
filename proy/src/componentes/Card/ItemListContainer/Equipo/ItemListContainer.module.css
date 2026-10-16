@@ -1,0 +1,6 @@
+.contenedor {
+    padding: 5rem 8%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 2rem;
+}

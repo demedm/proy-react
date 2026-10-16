@@ -182,3 +182,7 @@
     border-right-color: var(--border);
   }
 }
+
+.productos {
+  background-color: #e0e7ff;
+}

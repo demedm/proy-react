@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "nombre": "Maria Mendoza",
+        "email": "mariamendoza@gmail.com",
+        "puesto": "CEO",
+        "imagen": "/images/equipo/account_profile_user_avatar_icon_219236.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Carlos Lopez",
+        "email": "carloslopez12@hotmail.com",
+        "puesto": "Desarrollador",
+        "imagen": "/images/equipo/account_profile_user_avatar_icon_219236.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Ana Grande",
+        "email": "agrande@gmail.com",
+        "puesto": "Desarrolladora",
+        "imagen": "/images/equipo/account_profile_user_avatar_icon_219236.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Sara Nievas",
+        "email": "saranievas@gmail.com",
+        "puesto": "Redes Sociales y Marketing",
+        "imagen": "/images/equipo/account_profile_user_avatar_icon_219236.png"
+    }
+]
